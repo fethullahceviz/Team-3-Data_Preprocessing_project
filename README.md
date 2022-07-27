@@ -7,8 +7,9 @@ your data is successfully preprocessed.
 1. Data quality assessment 
 2. Data cleaning 
 3. Data transformation 
-4. Data reduction 
-1. Data quality assessment 
+4. Data reduction
+ 
+## Data quality assessment 
 Take a good look at your data and get an idea of its overall quality, relevance to 
 your project, and consistency. There are a number of data anomalies and 
 inherent problems to look out for in almost any data set, for example: 
