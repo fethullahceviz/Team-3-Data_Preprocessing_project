@@ -81,11 +81,12 @@ With data cleaning, we’ve already begun to modify our data, but data
 transformation will begin the process of turning the data into the proper 
 format(s) you’ll need for analysis and other downstream processes. 
 This generally happens in one or more of the below: 
-1. Aggregation 
-2. Normalization 
-3. Feature selection 
-4. Discreditization 
-5. Concept hierarchy generation 
+ 1. Aggregation 
+ 2. Normalization 
+ 3. Feature selection 
+ 4. Discreditization 
+ 5. Concept hierarchy generation 
+
 • Aggregation: Data aggregation combines all of your data together in a 
 uniform format. 
 • Normalization: Normalization scales your data into a regularized range 
