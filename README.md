@@ -31,7 +31,7 @@ unanswered survey questions. This could be due to human error or
 incomplete data. To take care of missing data, you’ll have to perform data 
 cleaning. 
  
-2. Data cleaning 
+## Data cleaning 
 Data cleaning is the process of adding missing data and correcting, repairing, or 
 removing incorrect or irrelevant data from a data set. Dating cleaning is the 
 most important step of preprocessing because it will ensure that your data is 
@@ -74,8 +74,9 @@ when cleaning your data are:
 After data cleaning, you may realize you have insufficient data for the task at 
 hand. At this point you can also perform data wrangling or data enrichment to 
 add new data sets and run them through quality assessment and cleaning again 
-before adding them to your original data. 
-3. Data transformation 
+before adding them to your original data.
+
+## Data transformation 
 With data cleaning, we’ve already begun to modify our data, but data 
 transformation will begin the process of turning the data into the proper 
 format(s) you’ll need for analysis and other downstream processes. 
@@ -99,8 +100,7 @@ important to remember, that the more features you choose to use, the
 longer the training process and, sometimes, the less accurate your results, 
 because some feature characteristics may overlap or be less present in 
 the data. 
- 
-• Discreditization: Discreditiization pools data into smaller intervals. It’s 
+ • Discreditization: Discreditiization pools data into smaller intervals. It’s 
 somewhat similar to binning, but usually happens after data has been 
 cleaned. For example, when calculating average daily exercise, rather than 
 using the exact minutes and seconds, you could join together data to fall 
@@ -108,8 +108,9 @@ into 0-15 minutes, 15-30, etc.
 • Concept hierarchy generation: Concept hierarchy generation can add a 
 hierarchy within and between your features that wasn’t present in the 
 original data. If your analysis contains wolves and coyotes, for example, 
-you could add the hierarchy for their genus: canis. 
-4. Data reduction 
+you could add the hierarchy for their genus: canis.
+
+## Data reduction 
 The more data you’re working with, the harder it will be to analyze, even after 
 cleaning and transforming it. Depending on your task at hand, you may actually 
 have more data than you need. Especially when working with text analysis, much 
